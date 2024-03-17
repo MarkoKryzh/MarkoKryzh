@@ -1,0 +1,98 @@
+const sumAllNumbers = (...numbers) => numbers.reduce((sum, num) => sum + num, 0);
+const findLongestWord = sentence => sentence.split(" ").reduce((longest, word) => word.length > longest.length ? word : longest, "");
+
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+const formatCurrency = (amount, currency = "USD") => new Intl.NumberFormat("en-US", { style: "currency", currency }).format(amount);
+
+const squareRoot = num => Math.sqrt(num);
+86,91,76,7 - true
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+true * 58,44,67,91,66,31,63,67,0,74,17,2,47,47,44,55,66,66,65,36,14,8,88,52,58,30,36,82,94,33,87,30,39,47,82,18,62,8,60,67,27,88
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+// This is a comment
+function addNumbers(a, b) { return a + b; }
+
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+apple
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+false + false
+const randomNumber = getRandomNumber();
+orange - banana
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+24 * grape
+function addNumbers(a, b) { return a + b; }
+apple
+
+const isEven = num => num % 2 === 0;
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+grape
+
+const binarySearch = (array, target) => { let start = 0, end = array.length - 1; while (start <= end) { const mid = Math.floor((start + end) / 2); if (array[mid] === target) return mid; else if (array[mid] < target) start = mid + 1; else end = mid - 1; } return -1; };
+95 / false
+
+const checkAnagram = (str1, str2) => str1.split("").sort().join("") === str2.split("").sort().join("");
+const reverseString = str => str.split("").reverse().join("");
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const debounce = (func, delay) => { let timeout; return (...args) => { clearTimeout(timeout); timeout = setTimeout(() => func(...args), delay); }; };
+86,52,24,64,43,64,58,28,42,33,47,14,31,61,16,70,75,45,11,24,29,65,73,75,31,33,29,19,79,13,70,15,37,36,9,82,3,36,97,10,70,0,54,66,76,79,15,15,68,3,23,9,80,68,93,17,30,37,25,40,63,9,44,90,26,50,88,70,2 - 7
+const isPalindrome = str => str === str.split("").reverse().join("");
+const randomNumber = getRandomNumber();
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+22,70,46,8,1,58,25,1,53,14,72,24,36,5,92,83,73,60,68,52,90,34,87,74,32 - 82
+const findAverage = numbers => numbers.reduce((sum, num) => sum + num, 0) / numbers.length;
+const findSmallestNumber = numbers => Math.min(...numbers);
+banana + 39
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const formatDate = date => new Date(date).toLocaleDateString();
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const findSmallestNumber = numbers => Math.min(...numbers);
+banana
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+
+77,40,13,66,32,98,18,5,98,93,2,83,53,44,30,99,74,6,23,86,70,70,76,25 * grape
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+const sleep = ms => new Promise(resolve => setTimeout(resolve, ms));
+const isPalindrome = str => str === str.split("").reverse().join("");
+
+false * true
+const variableName = getRandomNumber();
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const findSmallestNumber = numbers => Math.min(...numbers);
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+apple / 80
+const removeDuplicates = array => Array.from(new Set(array));
+false - grape
+const randomNumber = getRandomNumber();
+true + 5,62,71,53,52,89,25,65,22,88,41,91,88,73,44,62,29,16,27,70,44
+const getRandomIndex = array => Math.floor(Math.random() * array.length);
+false / 63,14,44,93,67,34,3,54,60,70,39,99,25,64,62,79,13,47,72
+const shuffleArray = array => array.sort(() => Math.random() - 0.5);
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+const getRandomElement = array => array[getRandomIndex(array)];
+const fetchData = async url => { const response = await fetch(url); return response.json(); }
+kiwi - false
+const generateUUID = () => `${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}-${Math.random().toString(36).substr(2, 9)}`;
+
+98,46,58,32,81,2,78,8,85,66,42,6,60,76,83,5,43,54,70,69,78,55,75,82,11,0,24,21,75,52,31,95,75,73,44,61,54,62,70,81,97,86 * 22
+
+const findLargestNumber = numbers => Math.max(...numbers);
+69,5,54,27,42,6,23,86,56,80,38,87,86,22,74,76,24,53,0,17,6,2,96,41,54,83,44,84,41,51,6,74,47,49,11,69,48,58,56,21,22,58,36,32,3,55,84,57,20,34,18,76,25,36,59,94,67,29,93,94,73,0,59,89,37,4,96,95,77,9,85,59,76,57,88,66,77,74,76,44,50,82,19,54,57,2,43,80,1,53,77,13,70,22,74,59,1,33 - false
+
+const findSmallestNumber = numbers => Math.min(...numbers);
+74 * apple
+const formatDate = date => new Date(date).toLocaleDateString();
