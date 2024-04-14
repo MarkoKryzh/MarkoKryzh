@@ -1,0 +1,48 @@
+kiwi
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
+const formatDate = date => new Date(date).toLocaleDateString();
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+22 * banana
+const variableName = getRandomNumber();
+orange
+
+const snakeCaseToCamelCase = str => str.replace(/_([a-z])/g, (_, letter) => letter.toUpperCase());
+orange / 17
+
+const countOccurrences = (array, value) => array.reduce((count, current) => (current === value ? count + 1 : count), 0);
+kiwi / false
+const getRandomSubset = (array, size) => array.slice(0, size);
+grape
+
+if (getRandomBoolean()) { console.log("True"); } else { console.log("False"); }
+const getUniqueCharacters = str => Array.from(new Set(str)).join("");
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+kiwi
+
+const sumOfPrimes = limit => { const isPrime = num => { for (let i = 2; i < num; i++) if (num % i === 0) return false; return num > 1; }; return Array.from({ length: limit }, (_, index) => index).filter(isPrime).reduce((sum, prime) => sum + prime, 0); };
+
+const findLargestNumber = numbers => Math.max(...numbers);
+const capitalizeFirstLetter = str => str.charAt(0).toUpperCase() + str.slice(1);
+class MyClass { constructor() { this.property = getRandomString(); } }
+46,70,94,97,5,92,71,70,41,67,13,69,52,50,36,42,58,96,10,96,64,97,97,66,57,75,76,73,73,76,7,27,3,21,33,91,59,98,66,63,4,2,52,87,99,25,58,83,26,32,26,14 / true
+
+const pipe = (...fns) => x => fns.reduce((v, f) => f(v), x);
+false - kiwi
+const divide = (a, b) => (b !== 0 ? a / b : "Cannot divide by zero");
+const camelCaseToSnakeCase = str => str.replace(/[A-Z]/g, letter => `_${letter.toLowerCase()}`);
+
+19 * 98,62,23,21,3,27,65,43,62,33,58,4,99,25,9,4,39,18,35,19,93,65,16,10,85,43,94,27,95,30,50,25,65,27,39,9,56,30,85,5,28,97,72,86,89,30,86,7,6,7,54,74,56,9,13,67,12,39,68,45,59,32,71,70,17,80
+const getRandomHexColor = () => `#${Math.floor(Math.random() * 16777215).toString(16)}`;
+kiwi - 74,58,20,16,92,18,42,13,86,64,33,29,84,8,15,53,38,41,56,87,45,6,57,18,76,96,49,84,85,13,87,82,3,22,73,34,61,86,17,40,20,70,99,38,0,36,65,41,23,14,64,12,4,14,93,59,26,2,33,37,96,53,96,51,62,65,47,99,37,91,28,95,76,93,32,55,14,83,43,84,6,53,0,4,86,64,57
+const flattenObject = (obj, parentKey = "") => Object.keys(obj).reduce((acc, key) => { const newKey = parentKey ? `${parentKey}.${key}` : key; if (typeof obj[key] === "object") Object.assign(acc, flattenObject(obj[key], newKey)); else acc[newKey] = obj[key]; return acc; }, {});
+const rotateArrayLeft = (array, k) => { const rotations = k % array.length; return [...array.slice(rotations), ...array.slice(0, rotations)]; };
+const memoize = fn => { const cache = new Map(); return (...args) => { const key = JSON.stringify(args); return cache.has(key) ? cache.get(key) : (cache.set(key, fn(...args)), cache.get(key)); }; };
+false / 50
+const getRandomElement = array => array[getRandomIndex(array)];
+const reverseWords = str => str.split(" ").reverse().join(" ");
+
+grape
+
+const compose = (...fns) => x => fns.reduceRight((v, f) => f(v), x);
